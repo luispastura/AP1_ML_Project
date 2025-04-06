@@ -50,10 +50,6 @@ shapiro.test(StudentsPerformance$math.score)
 shapiro.test(StudentsPerformance$reading.score)
 shapiro.test(StudentsPerformance$writing.score)
 
-# Kolmogorov-Smirnov
-ks.test(StudentsPerformance$math.score, "pnorm", mean(StudentsPerformance$math.score), sd(StudentsPerformance$math.score))
-ks.test(StudentsPerformance$reading.score, "pnorm", mean(StudentsPerformance$reading.score), sd(StudentsPerformance$reading.score))
-ks.test(StudentsPerformance$writing.score, "pnorm", mean(StudentsPerformance$writing.score), sd(StudentsPerformance$writing.score))
 
 # ========================================================
 # 4. CORRELAÇÃO
