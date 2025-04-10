@@ -23,7 +23,7 @@ O dataset contém dados sobre estudantes, como gênero, etnia, escolaridade dos 
 - Conversão de variáveis categóricas em fatores
 
 ### 2. 📈 Testes Estatísticos
-- Testes de normalidade: Shapiro-Wilk e Kolmogorov-Smirnov
+- Teste de normalidade: Shapiro-Wilk
 - Correlação de Pearson entre as notas
 
 ### 3. 🔢 Regressão Logística
